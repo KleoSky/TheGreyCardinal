@@ -1,0 +1,139 @@
+.news {
+  width: 770px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.news__title {
+  margin: 0;
+  margin-bottom: 55px;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #00c6bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  text-underline-position: under;
+}
+
+.news__post-image {
+  margin: 0;
+  margin-bottom: 33px;
+}
+
+.news__post-image img {
+  display: block;
+  margin-bottom: 17px;
+}
+
+.news__post-fig {
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8693a4;
+}
+
+.news__post-content h3 {
+  margin-top: 33px;
+  margin-bottom: 27px;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.news__post-content h4 {
+  margin-top: 24px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.news__post-content p {
+  margin: 12px 0;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.news__post-content ins {
+  text-decoration: none;
+}
+
+.news__post-list {
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-left: 19px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.news__post-list li {
+  margin-bottom: 8px;
+}
+
+.news__post-list blockquote {
+  padding: 0 20px;
+  margin: 0;
+  margin-top: 38px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  border-left: 2px solid #00c6bd;
+}
+
+.news__post-footer {
+  display: flex;
+  margin-top: 40px;
+}
+
+.news__post-author-img {
+  width: 60px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.news__post-meta {
+  width: 500px;
+  margin: 0;
+  margin-top: 7px;
+  margin-right: auto;
+}
+
+.news__post-share {
+  width: 26px;
+  margin-top: 19px;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.news__post-meta a {
+  display: block;
+  margin-bottom: 9px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #163152;
+  text-decoration: none;
+
+  &:hover {
+    color: rgba(22, 49, 82, 0.5);
+  }
+
+  &:active {
+    color: rgba(22, 49, 82, 0.3);
+  }
+}
+
+.news__post-meta time {
+  font-size: 16px;
+  line-height: 19px;
+  color: #8693a4;
+}

@@ -1,0 +1,171 @@
+.rent {
+  margin-bottom: 120px;
+}
+
+.rent__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.rent__title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 34px;
+  text-decoration: underline;
+  text-decoration-color: #00c6bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  text-underline-position: under;
+}
+
+.rent__card-view-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  max-width: 800px;
+  list-style: none;
+}
+
+.rent__card-view-button-grid,
+.rent__card-view-button-list {
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: 20px 20px;
+  border: 1px solid #00c6bd;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.rent__card-view-button-grid {
+  background-image: url("../../images/grid.svg");
+}
+
+.rent__card-view-button-list {
+  background-image: url("../../images/list.svg");
+}
+
+.rent__card-view-button-grid.active {
+  background-image: url("../../images/grid-light.svg");
+}
+
+.rent__card-view-button-list.active {
+  background-image: url("../../images/list-light.svg");
+}
+
+.rent__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  gap: 30px;
+}
+
+.rent__card {
+  width: 310px;
+  padding: 30px;
+  box-shadow: 0 4px 30px rgba(22, 49, 82, 0.12);
+}
+
+.rent__card-image {
+  display: block;
+  margin-bottom: 21px;
+}
+
+.rent__card-title {
+  margin: 0;
+  margin-bottom: 18px;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.rent__card-description {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.rent__card-features {
+  padding: 0;
+  margin: 0;
+  margin-left: 18px;
+  margin-bottom: 29px;
+  list-style-type: disc;
+}
+
+.rent__card-features li {
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.rent__card-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* Вертикальная раскладка карточек списком */
+
+.rent__cards.list {
+  flex-direction: column;
+}
+
+.rent__cards.list .rent__card {
+  display: flex;
+  width: 1110px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.rent__cards.list .rent__card-image {
+  width: 340px;
+  height: 211px;
+  margin: 0;
+  margin-right: 30px;
+  object-fit: cover;
+}
+
+.rent__cards.list .rent__card-title {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.rent__cards.list .rent__card-features {
+  margin: 0;
+  margin-left: 18px;
+}
+
+.rent__cards.list .rent__card-content {
+  margin-right: auto;
+  max-width: 345px;
+}
+
+.rent__cards.list .rent__card-price {
+  margin: 0;
+}
+
+.rent__cards.list .rent__card-price-name {
+  display: none;
+}

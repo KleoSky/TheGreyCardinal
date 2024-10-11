@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #163152;
+  background-color: #fdfdff;
+}
+
+body.serif {
+  font-family: "Philosopher", serif;
+}
+
+/* Theme: dark */
+
+body.dark {
+  color: #fdfdff;
+  background-color: #1d1f1f;
+}
+
+body.dark .fonts__font-button-sans-serif {
+  color: #fdfdff;
+}
+
+body.dark .fonts__font-button-serif {
+  color: #fdfdff;
+}
+
+body.dark .theme-switcher__theme-button-light {
+  background-image: url("../../images/sun-light.svg");
+}
+
+body.dark .logo img {
+  filter: brightness(20);
+}
+
+body.dark a {
+  color: #fdfdff;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+body.dark .header__signin img {
+  filter: brightness(20);
+}
+
+body.dark .rent__card-view-button-grid {
+  background-image: url("../../images/grid-light.svg");
+}
+
+.page.dark .rent__card-view-button-list {
+  background-image: url("../../images/list-light.svg");
+}
+
+body.dark .rent__card {
+  box-shadow: 0 4px 30px #181a1a;
+}
+
+body.dark .news__post-meta time {
+  color: rgba(253, 253, 255, 0.5);
+}
+
+body.dark .news__post-share {
+  filter: brightness(20);
+}
+
+body.dark .social__link img {
+  filter: brightness(20);
+}

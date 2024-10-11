@@ -1,0 +1,88 @@
+.blog-article {
+  display: flex;
+  justify-content: space-between;
+  width: 1030px;
+  margin: 0 auto;
+}
+
+.blog-article__content {
+  width: 400px;
+}
+
+.blog-article__image {
+  width: 600px;
+}
+
+.blog-article__content--article-1 {
+  margin-right: 30px;
+}
+
+.blog-article__content--article-2 {
+  text-align: right;
+}
+
+.blog-article__image--article-2 {
+  margin-right: 30px;
+}
+
+.blog-article__title {
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-size: 24px;
+  line-height: 34px;
+  text-decoration: underline;
+  text-decoration-color: #00c6bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  text-underline-position: under;
+}
+
+.blog-article__date {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.blog-article__description {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.blog-article__more {
+  padding: 0;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+  text-decoration-line: underline;
+  background-color: transparent;
+  border: none;
+
+  /* Элемент скрыт в развернутой статье */
+  display: none;
+
+  &:hover {
+    text-decoration: none;
+    opacity: 0.5;
+  }
+
+  &:active {
+    text-decoration: none;
+    opacity: 0.3;
+  }
+}
+
+/* Сокращенное отображение статьи */
+
+.blog-article.short .blog-article__description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.blog-article.short .blog-article__more {
+  /* Показываем элемент в свернутой статье */
+  display: inline-block;
+}

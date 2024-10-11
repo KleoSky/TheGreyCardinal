@@ -1,0 +1,56 @@
+.theme-switcher {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.theme-switcher__item {
+  margin-right: 10px;
+}
+
+.theme-switcher__item:last-child {
+  margin-right: 0;
+}
+
+.theme-switcher__theme-button-light,
+.theme-switcher__theme-button-dark {
+  display: block;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: 18px 18px;
+  border: 1px solid #00c6bd;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.theme-switcher__theme-button-light {
+  background-image: url("../../images/sun.svg");
+}
+
+.theme-switcher__theme-button-dark {
+  background-image: url("../../images/moon.svg");
+  background-size: 14px 18px;
+}
+
+.theme-switcher__theme-button-light.active {
+  background-image: url("../../images/sun-light.svg");
+}
+
+.theme-switcher__theme-button-dark.active {
+  background-image: url("../../images/moon-light.svg");
+}

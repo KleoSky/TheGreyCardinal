@@ -1,0 +1,43 @@
+.services {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(22, 49, 82, 0.1);
+}
+
+.services__content {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.services__location {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 25px;
+  margin-right: auto;
+  font-size: 14px;
+  line-height: 14px;
+  color: inherit;
+  text-decoration: none;
+  background-image: url("../../images/pin.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.services__location:hover {
+  opacity: 0.5;
+}
+
+.services__location:active {
+  opacity: 0.3;
+}
+
+.services__caption {
+  margin: 0;
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+}

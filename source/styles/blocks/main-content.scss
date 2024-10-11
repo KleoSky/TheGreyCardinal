@@ -1,0 +1,33 @@
+.main-content {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.main-content__hero {
+  margin-bottom: 120px;
+}
+
+.main-content__hero-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.main-content__hero-image {
+  display: block;
+}
+
+.main-content .main-content__blog-article--article-1 {
+  margin-bottom: 100px;
+}
+
+.main-content .main-content__blog-article--article-2 {
+  flex-direction: row-reverse;
+  margin-bottom: 120px;
+}
